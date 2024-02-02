@@ -36,36 +36,36 @@ const Contact = () => {
     //service id - service_4zqn7m2
     //public key - tTBh16B68lqWERgtz
     emailjs
-      .send(
-        service_4zqn7m2,
-        template_f9hjb4k,
-        {
-          from_name: form.name,
-          to_name: "Josef",
-          from_email: form.email,
-          to_email: "josefwambua2@gmail.com",
-          message: form.message,
-        },
-        tTBh16B68lqWERgtz
-      )
-      .then(
-        () => {
-          setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
-          setForm({
-            name: "",
-            email: "",
-            message: "",
-          });
-        },
-        (error) => {
-          setLoading(false);
-          console.error(error);
-
-          alert("Ahh, something went wrong. Please try again.");
-        }
-      );
+    .send(
+      "service_4zqn7m2",
+      "template_f9hjb4k",
+      {
+        from_name: form.name,
+        to_name: "Josef",
+        from_email: form.email,
+        to_email: "josefwambua2@gmail.com",
+        message: form.message,
+      },
+      "tTBh16B68lqWERgtz"
+    )
+    .then(
+      () => {
+        setLoading(false);
+        alert("Thank you. I will get back to you as soon as possible.");
+  
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },
+      (error) => {
+        setLoading(false);
+        console.error(error);
+  
+        alert("Ahh, something went wrong. Please try again.");
+      }
+    );
   };
 
   return (
