@@ -113,10 +113,9 @@ import {
       iconBg: "#383E56",
       date: "May 2023 - to date",
       points: [
-        "Developing and maintaining web applications using Mern technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Crafting and advancing web applications utilizing the power of MERN (MongoDB, Express.js, React.js, Node.js) technologies",
+        "Implementing responsive design principles to ensure seamless interaction across various devices and browsers",
+        "Embracing code reviews as an opportunity for growth, offering insightful feedback to refine my craft and elevate the quality of my work",
       ],
     },
     {
