@@ -43,7 +43,7 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
-              #{tag.name}
+              {tag.name}
             </p>
           ))}
         </div>
