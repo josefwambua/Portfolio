@@ -167,7 +167,7 @@ import {
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "javascript",
           color: "green-text-gradient",
         },
         {
